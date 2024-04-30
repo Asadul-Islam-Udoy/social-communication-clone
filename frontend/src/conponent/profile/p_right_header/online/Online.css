@@ -1,0 +1,78 @@
+.online-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.p-users-section{
+    width: 100%;
+    margin: 10px;
+    flex-direction: column;
+    background: var(--cardColor);
+    border-radius: 7px;
+}
+.p-requet{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+}
+.p-requet > button{
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 7px;
+    font-size: 13px;
+    background-color:rgb(234, 115, 194);
+    color: white;
+    transition: all 0.5s ease-in;
+    
+}
+.p-requet > button:nth-of-type(1){
+    background-color:rgb(55, 239, 242);
+    color: white;
+    
+    
+}
+.p-requet > button:nth-of-type(2){
+    background-color:rgb(248, 187, 19);
+    color: white;
+    
+    
+}
+.p-requet > span{
+ font:300 12px 'Locida Sans';
+ color: rgb(18, 179, 233);
+    
+}
+
+.p-requet>button:hover{
+   background:transparent;
+   color: rgb(22, 11, 48);
+   border: 1px solid rgb(234, 115, 194);
+}
+.online-friend-container{
+    background: var(--cardColor);
+    width: 100%;
+    border-radius: 10px;
+
+}
+.online-friend-container >p{
+   text-align: center;
+
+}
+.online-icon{
+    position: relative;
+}
+.online-icon >span{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(16, 174, 232);
+    transform: translateX(25px);
+    margin-top: -4px;
+}

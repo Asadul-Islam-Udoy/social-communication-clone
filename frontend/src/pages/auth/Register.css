@@ -1,0 +1,189 @@
+.Register-Container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 40wv;
+    overflow: scroll;
+}
+.left_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left_side>h2{
+    position: absolute;
+    color: white;
+    font:700 19px 'Roboto';
+    font-style: italic;   
+}
+.left_side>div{
+    position: absolute;
+    margin: 10px;
+    
+}
+.left_side>div >img{
+   margin-top: -20px;
+   width: 60px;
+   margin-right: 30px;
+    
+}
+.left_side>div>p{
+    margin-top: 60px;
+    color: white;
+    font:400 13px 'Roboto';
+    
+}
+.images{
+    width: 400px;
+    position: relative;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 3px rgb(186, 32, 148);
+    object-fit: cover;
+
+}
+.register-form{
+ position: relative;
+ background-color: rgb(244, 150, 200);
+ width: 400px;
+ height: 401px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding: 10px;
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+ box-shadow: 0 0 5px rgb(255, 141, 202);
+}
+.password-section{
+    display: flex;
+    width: 100%;
+    gap:1rem;
+}
+.password-section >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.password-section >div >input{
+    width: 100%;
+   background-color:rgb(179, 219, 255);
+   border-radius: 5px;
+   border: none;
+   color: rgb(0, 0, 2);
+   padding: 7px 20px;
+}
+.password-section >div>input:focus{
+    outline: none;
+    }
+.center-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.center-section>input{
+   width: 100%;
+   background-color:rgb(179, 219, 255);
+   border-radius: 5px;
+   border: none;
+   color: rgb(0, 0, 2);
+   padding: 7px 20px;
+}
+.center-section>input:focus{
+ outline: none;
+ }
+ label{
+    color: white;
+    width: 100%;
+    font:400 15px 'Locida Sans';
+    margin: 10px;
+ }
+ .button_register{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .button_register > button{
+   border: none;
+   background-color: rgb(129, 39, 255);
+   width: 40%;
+   border-radius: 5px;
+   padding: 4px;
+   color: white;
+   transition: all 0.5s ease-in;
+
+ }
+ .button_register > button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+ 
+  }
+  .p-register{
+    color: white;
+    font-size: 12px;
+    width: 100%;
+  }
+  @media(max-width:600px){
+    .Register-Container{
+        background-color: white;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+    }
+    .register-form{
+        position: relative;
+        background-color: rgb(244, 150, 200);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0 0 5px rgb(255, 141, 202);
+       }
+       .left_side{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .left_side>h2{
+        position: absolute;
+        color: white;
+        font:700 19px 'Roboto';
+        font-style: italic;  
+        text-align: center; 
+    }
+    .left_side>div >img{
+        margin-top: -20px;
+        width: 100%;
+        margin-right: 30px;
+         
+     }
+     .images{
+        width: 100%;
+        position: relative;
+        height: 250px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-shadow: 0 0 3px rgb(186, 32, 148);
+        object-fit: cover;
+    
+    }
+  }

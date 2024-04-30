@@ -1,0 +1,33 @@
+.Top_Right_Container{
+ display: flex;
+ justify-content: space-around;
+ margin: 10px;
+}
+.icon-images{
+    width: 25px;
+    height: 25px ;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.bal-section{
+    position: relative;
+ 
+}
+.bal-section >span{
+    text-align: center;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    transform: translateX(20px);
+    margin: 4px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-top: -5px;
+    color: white;
+
+    
+
+}

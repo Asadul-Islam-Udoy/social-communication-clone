@@ -1,0 +1,21 @@
+.Home-Container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20rem auto 22rem;
+    margin: 8px;
+
+}
+
+@media(max-width:600px){
+   .Home-Container{
+    display: block;
+    width: 100%;
+    margin:0px;
+   }
+   .left-side{
+    display: none;
+}
+.right-side{
+    display: none;
+}
+}

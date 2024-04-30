@@ -1,0 +1,56 @@
+.share-image-section{
+    display: flex;
+    background:rgb(255, 195, 241);
+    padding: 1rem;
+    width: 98%;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.share-image{
+    width: 98px;
+    height: 150px;
+    margin-right: 8px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: all 1.5s ease-in;
+    
+}
+
+.share-image:hover{
+    cursor: pointer;
+    transform: rotateX(360deg);
+    scale: 1.2;
+}
+.usrs-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.usrs-section:hover{
+    opacity: 0.4; 
+}
+.plus-icon{
+width: 30px;
+position:absolute;
+border-radius: 50%;
+margin-top: 5px;
+}
+@media(max-width:600px){
+    .share-image{
+        width: 33px;
+        height: 33px;
+        margin-right: 8px;
+        border-radius: 50%;
+        object-fit: cover;
+        
+    } 
+    .plus-icon{
+        width: 10px;
+        position:absolute;
+        border-radius: 50%;
+        margin-top: 5px;
+        }
+}

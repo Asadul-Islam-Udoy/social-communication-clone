@@ -1,0 +1,267 @@
+.center__Container{
+    position: relative;
+    min-height: 100%;
+    
+}
+.center__Top{
+  border-bottom: 3px solid white;
+  background-color: pink;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -6.5px;
+  padding: 5px;
+  width: 100%;
+
+}
+.homes-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.center__Top>p{
+    color: red;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.center__Top>div{
+   margin: 10px;
+}
+.icon-images{
+    margin-left: 30px;
+}
+
+.Center__Header__icon{
+    display: flex;
+}
+.center__Bottom{
+ margin:10px;
+ overflow: scroll;
+ height:76vh;
+ &{
+    scrollbar-width: none;
+ }
+}
+.chats__Container{
+  background-color: rgb(141, 195, 226);
+  width: 50%;
+  border-radius: 30px;
+  margin: 5px;
+  padding: 5px;
+   }
+.time__section{
+   margin-left: 10px;
+   color: rgb(10, 18, 49);
+   font-style: italic;
+   font-size: 12px;
+}
+.chats__Container>p{
+ width: 90%;
+ margin: 10px;
+}
+.own{
+   align-self: flex-end;
+   margin-left: 50%;
+   background-color: rgb(214, 108, 182);
+   color: white;
+
+}
+.iown{
+  display: none;
+}
+.iowns{
+    margin-left: 75%;
+}
+#iownmessage{
+text-align: center;
+}
+
+.Chat__Box{
+    width: 98%;
+    position: relative;
+    display: flex;
+    text-align: justify;
+    
+}
+.Chat__Box>button{
+border: none;
+padding: 12px 30px;
+background-color: rgb(221, 117, 186);
+color: white;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+
+}
+.Chat__Box>button:hover{
+
+    background-color: rgb(224, 149, 74);
+
+    }
+.Chat__Box>textarea{
+    width: 95%;
+    padding: 0px 50px;
+    border:none;
+    background-color: rgb(244, 253, 190);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 0 5px rgb(141, 195, 226);
+    color: rgb(7, 15, 51);
+}
+.Chat__Box>textarea:focus{
+   outline: none;
+}
+.chat__box__icon{
+position: absolute;
+margin-left: 10px;
+font-size: 40px !important;
+color: rgb(199, 186, 6);
+
+}
+.chat__lodding{
+    position: absolute;
+    right: 10%;
+    margin-top: 10px;
+}
+.chat__box__logo{
+  text-align: center; 
+}
+.chat__box__logo>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.chat__box__logo>div>h1{
+    color: rgb(0, 195, 255);
+    font-size: 10rem;
+    font-weight: bold;
+    margin-top: 15%;
+    opacity: 0.2;
+  }
+.chat__box__logo div>h1::before{
+    animation: chatbox 3s linear 3s infinite alternate;
+    position: absolute;
+    content: 'chat box';
+    color: rgb(175, 13, 121);
+    font-size: 10rem;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.friends__section__min{
+  display: none;  
+}
+@keyframes chatbox{
+    0%{
+        rotate: 30deg;
+    }
+    50%{
+        rotate: 0deg; 
+        color: rgb(80, 238, 18);
+    }
+    100%{
+        rotate: -30deg; 
+    }
+}
+@media(max-width:600px) {
+    .center__Container{
+        width: 100%;  
+    }
+    .center__Bottom{
+        height: 100vh;
+        width: 100%;
+}   
+.center__Top{
+    border-bottom: 3px solid white;
+    background-color: pink;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -1px;
+    padding: 0px;
+  
+  }
+  .center__Top>p{
+    color: red;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.center__Top>div{
+    margin: 0px;
+    margin-right: 7px;
+ }
+
+ .icon-images{
+    margin-left: 20px;
+    height: 18px;
+    width: 18px;
+}
+.iowns{
+    margin-left: 60%;
+}
+.Chat__Box{
+   width: 98%;
+   position: fixed;
+   display: flex;
+   align-items: center;
+   margin-top: -10px;
+}
+.chat__lodding{
+    position: absolute;
+    right: 24%;
+    margin-top: 0px;
+}
+.friends__section__min{
+    display: block;  
+}
+}
+@media(max-width:400px) {
+    .chat__lodding{
+        position: absolute;
+        right: 29%;
+        margin-top: 0px;
+    }
+    .center__Top{
+        border-bottom: 3px solid white;
+        background-color: pink;
+        text-align: center;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -6.5px;
+        padding: 5px;
+        width: 73%;
+      
+      }
+    .Chat__Box{
+        width: 98%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        margin-top: -52px;
+     }
+     .iowns{
+        margin-left: 45%;
+    }
+    .friends__section__min{
+        width: 73%; 
+      }
+      .center__Bottom{
+        margin:10px;
+        overflow: scroll;
+        width: 70%;
+        &{
+           scrollbar-width: none;
+        }
+       }
+       .chat__home__container{
+        width: 10%;
+       }
+    
+}

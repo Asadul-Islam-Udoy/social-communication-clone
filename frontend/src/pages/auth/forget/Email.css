@@ -1,0 +1,21 @@
+
+.close-items{
+    width: 30px;
+    background-color: rgb(128, 207, 244);
+    height: 30px;
+    margin-top: -180px;
+    margin-left: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    border: 0.5px solid rgb(248, 248, 249);
+}
+.close-section{
+    font-size: 17px;
+    color: white;
+}
+.close-items:hover{
+    background-color: rgb(39, 176, 240);
+    color: rgb(13, 49, 83);
+}

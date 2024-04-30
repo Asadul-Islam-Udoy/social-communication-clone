@@ -1,0 +1,20 @@
+.p_left_center_container{
+    border-radius: 10px;
+    position: sticky;
+    overflow: scroll;
+    height: 143vh;
+    &{
+        scrollbar-width: none;
+    }
+}
+@media(max-width:600px){
+    .p_left_center_container{
+        border-radius: 10px;
+        position: sticky;
+        overflow: scroll;
+        height: 160vh;
+        &{
+            scrollbar-width: none;
+        }
+    }
+}

@@ -1,0 +1,119 @@
+.Button-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cardColor);
+    margin: 5px;
+    flex-direction: column;
+    width: 98%;
+    border-radius: 10px;
+}
+.details-section{
+    text-align: end;
+    width: 100%;
+    margin-right: 20px;
+  
+}
+.details-posts-section{
+    position: absolute;
+    background-color: rgb(248, 18, 252);
+    margin-left: 71.5%;
+    padding: 15px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+   
+}
+.details-posts-section>p{
+  font:400 12px 'Locida Sans';
+  color: rgb(255, 255, 255);
+   
+}
+
+.post-imge-section{
+    width: 662px;  
+}
+.post-imge{
+    width: 662px;
+    height: 300px;
+    object-fit: cover;
+}
+.icon-section{
+    display: flex;
+    width: 100%;
+    margin-left: 5px;
+}
+.icon-image{
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+.like-count{
+    width: 100%;
+    padding: 5px;
+    font:300 12px '';
+    margin-left: 10px;
+    color: rgb(21, 129, 223);
+}
+.description{
+    width: 97%;
+}
+.description>p{
+font:200 13px 'Locida Sans';
+}
+
+
+@media(max-width:600px){
+    .Button-Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--cardColor);
+        margin: 2px;
+        flex-direction: column;
+        width: 98%;
+        border-radius: 10px;
+    }
+    .details-posts-section{
+        position: absolute;
+        background-color: rgb(85, 182, 231);
+        margin-left: 84.5%;
+        padding: 15px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+       
+    }
+    .d-icon{
+        align-self:end;
+        top:0px;
+        right: 2px;
+        color: rgb(233, 29, 151);
+        font-size: 6px;
+    
+    }
+    .post-imge{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+    } 
+    
+    .icon-image{
+        width: 20px;
+        border-radius: 50%;
+        height: 20px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .like-count{
+        width: 100%;
+        padding: 5px;
+        font:300 10px '';
+        margin-left: 10px;
+        color: rgb(21, 129, 223);
+    }
+    .description>p{
+        font:200 10px 'Locida Sans';
+        margin-left: 8px;
+        }
+}

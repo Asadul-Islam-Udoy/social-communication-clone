@@ -1,0 +1,59 @@
+.rtght_center_container{
+    background: var(--cardColor);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 0 4px rgb(28, 146, 196);
+   
+}
+.f-users-section{
+    width: 90%;
+    display:flex;
+    justify-content: space-between;
+}
+.button-request{
+    display: flex;
+    justify-content:space-between ;
+    width: 87%;
+    padding: 9px;
+}
+.button-request >button{
+   border: none;
+   background-color: orange;
+   border-radius: 4px;
+   color: white;
+   cursor: pointer;
+   font:300 16px 'Locida Sans';
+   width: 70px;
+   transition: all 0.5s ease-in;
+   padding: 3px;
+}
+.button-request >button:nth-of-type(1){
+    border: none;
+    background-color: rgb(45, 120, 190);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+   
+ }
+ .button-request >button:nth-of-type(1):hover{
+    background-color: transparent;
+    border-radius: 4px;
+    color: rgb(5, 9, 45);
+    border: 1px solid rgb(28, 146, 196);
+   
+ }
+.button-request >button:hover{
+    background-color: transparent;
+    border-radius: 4px;
+    color: rgb(8, 14, 65);
+    border: 1px solid orange;
+ }
+
+ .button-request >span{
+    color: tomato;
+    font-weight: bold;
+  
+ }
+ 

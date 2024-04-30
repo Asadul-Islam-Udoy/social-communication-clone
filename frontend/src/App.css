@@ -1,0 +1,46 @@
+.App{
+  background:var(--bs-gray-400);
+  padding: 1rem, 1rem;
+  overflow: hidden;
+
+}
+.blur{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blur1{
+ position: absolute;
+ background-color: rgb(14, 149, 222);
+ border-radius: 70%;
+ height: 14rem;
+ width: 22rem;
+ filter: blur(70px);
+ top:-18%;
+ right: 0;
+}
+
+.blur2{
+  top:10%;
+  left: -8rem;
+  position: absolute;
+  background-color: rgb(250, 96, 209);
+  border-radius: 70%;
+  height: 14rem;
+  width: 22rem;
+  filter: blur(70px);
+  margin-right: 2rem;
+  margin: auto;
+ }
+ .blur3{
+  top:66%;
+  left: 40%;
+  position: absolute;
+  background-color: rgb(191, 96, 250);
+  border-radius: 70%;
+  height: 14rem;
+  width: 22rem;
+  filter: blur(70px);
+  margin-right: 2rem;
+  margin: auto;
+ }

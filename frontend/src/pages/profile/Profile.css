@@ -1,0 +1,25 @@
+.profile-Container{
+    width: 100%;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 22rem auto;
+    position: relative;
+   
+}
+@media(max-width:600px){
+.profile-Container{
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 92%;
+        position: relative;
+       
+    }
+.profile__status{
+    position: absolute;
+    z-index: 999;
+    background-color: black;
+}
+.profile__status__max{
+    display: none;
+}
+}

@@ -1,0 +1,8 @@
+.Right-Container{
+    position: sticky;
+    overflow: scroll;
+    height: 100vh;
+    &{
+     scrollbar-width: none;   
+    }
+}

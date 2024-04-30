@@ -1,0 +1,29 @@
+.messageer__Container{
+ display:  flex;
+ width: 100vw;
+ margin: 5px;
+ padding: 2px;   
+}
+.messageer__LeftSide{
+flex: 2;
+}
+.messageer__CenterSide{
+flex: 5;
+}
+@media (max-width:600px) {
+ .messageer__Container{
+        display:  flex;
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;   
+ }
+.messageer__LeftSide{
+  flex: none;
+  display: none;
+}  
+.messageer__LeftSide{
+  position: fixed;
+  margin-left: 70%;
+  z-index: 99;
+}
+}

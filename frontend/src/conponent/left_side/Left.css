@@ -1,0 +1,12 @@
+.Left-Container{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    overflow: scroll;
+    height: 100vh;
+    & {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+    
+}

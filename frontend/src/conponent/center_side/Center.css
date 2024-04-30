@@ -1,0 +1,12 @@
+.center-Container{
+    overflow: scroll;
+    position: sticky;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    & {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+}

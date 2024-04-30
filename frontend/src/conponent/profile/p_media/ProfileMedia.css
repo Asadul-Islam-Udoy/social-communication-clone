@@ -1,0 +1,23 @@
+.profile__media__container{
+    display: none;
+}
+@media(max-width:600px){
+    .profile__media__container{
+    display: flex;
+    background:rgb(255, 97, 184);
+    padding: 0.8rem;
+    width: 98%;
+    margin-top: 8px;
+    border-radius: 10px;
+    }
+    .profile__media__box{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .profile__media__box>div{
+        cursor: pointer;
+        z-index: 99;
+    }
+}

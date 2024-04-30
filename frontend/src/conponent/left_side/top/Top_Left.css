@@ -1,0 +1,21 @@
+.Top-Contarner{
+    display: flex;
+    gap: 1rem;
+    margin-left: 15px;
+    width: 100%;
+}
+.logo-image{
+   width: 40px;
+}
+.top-search-input{
+    border: none;
+    background-color: var(--inputColor) ;
+    border-radius: 15px;
+    font:300 20px 'Locida Sans';
+    box-shadow: 0 0 2px rgb(53,63,67);
+    padding:0vmax 1vmax;
+    border: 1px solid rgb(246, 246, 246);
+}
+.top-search-input:focus{
+   outline: none;
+}

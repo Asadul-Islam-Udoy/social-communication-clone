@@ -1,0 +1,76 @@
+.Botton-Container{
+  padding: 1rem;
+  gap: 1rem;
+  width: 100%;
+  margin:10px;
+}
+.f-p{
+    font-weight: 800;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.f-users-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.f-users{
+    display: flex;
+    gap:0.9rem;
+    align-items: center;
+}
+.f-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+  
+}
+.f-name>span:nth-of-type(1){
+    font-weight: bold;
+    color: rgb(45, 26, 89);
+    font-size: 13px;
+   
+}
+.f-image{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    object-fit: cover;
+}
+.f-button{
+     border: none;
+     height: 30px;
+     width: 60px;
+     border-radius: 7px;
+     font-size: 13px;
+     background-color:rgb(234, 115, 194);
+     color: white;
+     transition: all 0.5s ease-in;
+
+}
+.f-button:hover{
+    background:transparent;
+    color: rgb(22, 11, 48);
+    border: 1px solid rgb(234, 115, 194);
+}
+.see-more-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.see-more-button>button{
+   border: none;
+   background:transparent;
+   cursor: pointer;
+   border-bottom: 2px solid rgb(165, 189, 196);
+   font:200 14px 'Locida Sans';
+   transition: all 0.5s ease-in-out;
+}
+.see-more-button>button:hover{
+  
+    border-bottom: 2px solid rgb(232, 111, 183);
+    color: rgb(77, 178, 241);
+ }

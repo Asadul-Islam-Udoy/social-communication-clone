@@ -1,0 +1,79 @@
+.Left__Container{
+position: relative;
+}
+.Left__Top{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.Left__Top>input{
+  padding: 10px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 0 5px rgb(222, 230, 240);
+  border: none;
+
+}
+.Left__Top>input:focus{
+    outline: none;
+}
+.Left__Top>div{
+    background-color: rgb(233, 54, 188);
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(45, 120, 224);
+}
+.search__icon{
+    color: white;
+}
+.active__friend{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    border-bottom: 3px solid rgb(247, 247, 247);
+}
+.Left__Header{
+    overflow: auto;
+    max-height: 84vh;
+    &{
+        scrollbar-width: none;
+    }
+}
+.Left__Button{
+display: flex;
+margin-top: 10px;
+background-color: rgb(232, 154, 248);
+border-radius: 10px;
+color: rgb(11, 8, 53);
+transition: all 0.7s ease;
+}
+.Left__Button:hover{
+    background-color: rgb(151, 41, 173);
+ }
+.user__image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+.Left__Button>div{
+ display: flex;
+ flex-direction: column;
+margin: 5px;
+
+}
+.usrs_name{
+    text-decoration: none;
+    font-weight: bold;
+    font:900 15px 'Roboto';
+    margin-top: 5px;
+}
+
+.Left__Button>div>p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+

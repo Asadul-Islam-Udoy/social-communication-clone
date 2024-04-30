@@ -1,0 +1,38 @@
+.Lodder__Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.Lodder__Container>div{
+    background-color: rgb(243, 18, 18);
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius:50%;
+    border-left: 4px solid red;
+    border-top: 4px solid red;
+    background-color: transparent;
+    position: relative;
+    animation: lodders 2s linear 0s infinite reverse;
+
+}
+
+@keyframes lodders {
+    0%{
+     transform: rotate(0deg);
+    } 
+    25%{
+        border-left: 4px solid rgb(14, 116, 231);
+        border-top: 4px solid rgb(139, 194, 13);   
+    }
+    50%{
+        border-left: 4px solid rgb(224, 31, 192);
+        border-top: 4px solid red;
+    }
+    100%{
+     transform: rotate(360deg);
+    } 
+ }
