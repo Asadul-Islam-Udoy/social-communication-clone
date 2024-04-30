@@ -9,12 +9,12 @@ DB_Connection()
 PORT = process.env.PORT || 8000
 
 
-// app.get('',(req,res)=>{
-// return res.status(200).json({
-//     success:true,
-//     message:'running successfully'
-// })
-// })
+app.get('',(req,res)=>{
+return res.status(200).json({
+    success:true,
+    message:'running successfully'
+})
+})
 
 app.listen(PORT,(req,res)=>{
     console.log(`http://127.0.0.1:${PORT}`)
